@@ -5,11 +5,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: azure;
+  background-color: aquamarine;
   cursor: pointer;
   display: inline-block;
 }
-button:hover {
+.buttons:hover {
     background-color: coral;
     color: antiquewhite;
 }
