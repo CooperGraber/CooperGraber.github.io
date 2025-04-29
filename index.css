@@ -1,15 +1,18 @@
 .buttons {
-  width: 100px;
-  height: 25px;
-  gap: 10px;
   display: flex;
+  gap: 10px;
   align-items: center;
   justify-content: center;
+}
+
+.buttons a{
+  width: 200px;
+  height: 25px;
   background-color: aquamarine;
   cursor: pointer;
   display: inline-block;
 }
-.buttons:hover {
+.buttons a:hover {
     background-color: coral;
     color: antiquewhite;
 }
