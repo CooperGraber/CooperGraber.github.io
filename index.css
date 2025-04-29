@@ -2,15 +2,20 @@
   display: flex;
   gap: 10px;
   align-items: center;
-  justify-content: center;
+  justify-content: left;
 }
 
 .buttons a{
   width: 200px;
-  height: 25px;
-  background-color: aquamarine;
+  height: 20px;
+  background-color: azure;
   cursor: pointer;
   display: inline-block;
+  border-right: 2px;
+}
+
+.buttons a:last-child{
+  border-right: none;
 }
 .buttons a:hover {
     background-color: coral;
